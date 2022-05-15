@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel src/index.html -p 3000 --out-dir development",
-    "build": "rimraf dist && parcel build src/index.html --out-dir dist"
+    "dev": "parcel src/index.html -p 3000 --dist-dir development",
+    "build": "rimraf dist && parcel build src/index.html --dist-dir dist"
   },
   "repository": {
     "type": "git",

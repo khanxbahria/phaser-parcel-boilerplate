@@ -1,6 +1,6 @@
 import Phaser from "phaser"
 
-
+import HelloWorldScene from "./scenes/HelloWorldScene";
 
 const config = {
     width: 800,
@@ -12,7 +12,7 @@ const config = {
             gravity: { y: 200 },
         },
     },
-    scene: [],
+    scene: [HelloWorldScene],
 }
 
 const game = new Phaser.Game(config);
